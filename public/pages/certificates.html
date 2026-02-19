@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certifications | Akash S</title>
+  <meta name="description"
+    content="Certifications and achievements of Akash S – Cybersecurity Enthusiast and Full Stack Developer.">
+  <link rel="shortcut icon" href="../assets/img/NIRAI LOGO .png" type="image/png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Space Grotesk', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      outline: none;
+      border: none;
+    }
+
+    html {
+      font-size: 62.5%;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    html::-webkit-scrollbar {
+      width: 1rem;
+    }
+
+    html::-webkit-scrollbar-track {
+      background: #0a0a0a;
+    }
+
+    html::-webkit-scrollbar-thumb {
+      background: #6B8F23;
+      border-radius: 5rem;
+    }
+
+    body {
+      background: #0a0a0a;
+      padding: 4rem 2rem 6.5rem;
+      isolation: isolate;
+    }
+
+    .page-header,
+    .portfolio {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* === Header === */
+    .page-header {
+      text-align: center;
+      margin-bottom: 5rem;
+      padding: 3rem 0;
+    }
+
+    .page-header h1 {
+      color: #f0f0f0;
+      font-size: 3.6rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      position: relative;
+      display: inline-block;
+    }
+
+    .page-header h1::after {
+      content: "";
+      position: absolute;
+      bottom: -1.2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60%;
+      height: 0.4rem;
+      background: linear-gradient(90deg, #6B8F23, #8DB63C);
+      border-radius: 2px;
+    }
+
+    .page-header p {
+      color: #8a8a8a;
+      font-size: 1.6rem;
+      margin-top: 2rem;
+    }
+
+    .page-header a {
+      color: #8DB63C;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .page-header a:hover {
+      color: #f0f0f0;
+    }
+
+    /* === Card Grid === */
+    .portfolio {
+      text-align: center;
+      max-width: 120rem;
+      margin: 0 auto;
+    }
+
+    .portfolio .box-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+      gap: 3rem;
+      margin-bottom: 2rem;
+    }
+
+    .portfolio .box-container .box {
+      height: 30rem;
+      overflow: hidden;
+      position: relative;
+      border-radius: 10px;
+      border: 1px solid #1e1e1e;
+      transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+
+    .portfolio .box-container .box:hover {
+      border-color: #6B8F23;
+      box-shadow: 0px 4px 25px rgba(107, 143, 35, 0.15);
+      transform: translateY(-4px);
+    }
+
+    .portfolio .box-container .box:hover .content {
+      transform: translateY(0%);
+    }
+
+    .portfolio .box-container .box img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .portfolio .box-container .box .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(10, 10, 10, 0.95);
+      backdrop-filter: blur(5px);
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      transform: translateY(-100%);
+      transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+      border-radius: 10px;
+    }
+
+    .portfolio .box-container .box .content h3 {
+      font-size: 2.2rem;
+      color: #f0f0f0;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+
+    .portfolio .box-container .box .content p {
+      padding: 1rem 0;
+      font-size: 1.4rem;
+      line-height: 1.8;
+      color: #b0b0b0;
+    }
+
+    .portfolio .box-container .box .content a {
+      font-size: 1.6rem;
+      color: #8DB63C;
+      font-weight: 600;
+      padding: 0.8rem 2rem;
+      border: 1px solid #6B8F23;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+      margin-top: 0.5rem;
+    }
+
+    .portfolio .box-container .box .content a:hover {
+      color: #f0f0f0;
+      background: linear-gradient(135deg, #6B8F23, #556B1E);
+      border-color: transparent;
+    }
+
+    /* === Back Link === */
+    .back-link {
+      display: inline-block;
+      margin-top: 4rem;
+      color: #8DB63C;
+      font-size: 1.6rem;
+      font-weight: 600;
+      padding: 1.2rem 3rem;
+      border: 1px solid #6B8F23;
+      border-radius: 4px;
+      transition: all 0.3s ease;
+    }
+
+    .back-link:hover {
+      color: #f0f0f0;
+      background: linear-gradient(135deg, #6B8F23, #556B1E);
+      border-color: transparent;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(107, 143, 35, 0.3);
+    }
+
+    /* === View All PDF Link === */
+    .pdf-link-wrapper {
+      text-align: center;
+      margin-top: 4rem;
+      padding-top: 3rem;
+      border-top: 1px solid #1e1e1e;
+    }
+
+    .pdf-link-wrapper a {
+      display: inline-block;
+      color: #0a0a0a;
+      font-size: 1.6rem;
+      font-weight: 600;
+      padding: 1.5rem 4rem;
+      background: linear-gradient(135deg, #6B8F23, #8DB63C);
+      border-radius: 4px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(107, 143, 35, 0.25);
+    }
+
+    .pdf-link-wrapper a:hover {
+      background: linear-gradient(135deg, #8DB63C, #6B8F23);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(107, 143, 35, 0.4);
+      color: #f0f0f0;
+    }
+  </style>
+
+</head>
+
+<body data-terminal-bg-force="on">
+
+  <div class="page-header">
+    <h1>Certifications</h1>
+    <p>Achievements & learning milestones — <a href="../index.html">← Back to Portfolio</a></p>
+  </div>
+
+  <section class="portfolio">
+
+    <div class="box-container">
+
+      <div class="box">
+        <img src="../assets/img/IA.png" alt="Innovation Ambassador">
+        <div class="content">
+          <h3>Innovation Ambassador – Advanced Level</h3>
+          <p>Completed IA Advanced Level training (16 Sessions, 30 contact hours) by MoE's Innovation Cell & AICTE
+            during IIC calendar year 2024-25.</p>
+          <a href="#" target="_blank">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../assets/img/CYBERCRIMEINTERN.png" alt="Cyber Crime Police Internship">
+        <div class="content">
+          <h3>Cyber Crime Police Station Internship</h3>
+          <p>Completed internship at Cyber Crime Police Station, Avadi Police Commissionerate, Chennai (June 2025).
+            Gained experience in cyber crimes, awareness, and digital services.</p>
+          <a href="#" target="_blank">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../assets/img/MSLA-ML.png" alt="Microsoft ML Fundamentals">
+        <div class="content">
+          <h3>ML Fundamentals with Azure ML Studio</h3>
+          <p>Microsoft Learn Student Ambassadors – Learn Machine Learning Fundamentals with Azure Machine Learning
+            Studio.</p>
+          <a href="#" target="_blank">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../assets/img/vit -ethical -hacking.png" alt="Cyber Security & Ethical Hacking Workshop">
+        <div class="content">
+          <h3>Cyber Security & Ethical Hacking Workshop</h3>
+          <p>Participated in two-day National Level Online Workshop on "Cyber Security and Ethical Hacking" conducted by
+            SENSE, March 2025.</p>
+          <a href="#" target="_blank">View Certificate</a>
+        </div>
+      </div>
+
+      <div class="pdf-link-wrapper">
+        <a href="../certs/AkashS-Certifications.pdf" target="_blank">📄 View All Certifications (PDF)</a>
+      </div>
+
+      <a href="../index.html" class="back-link">← Back to Portfolio</a>
+
+  </section>
+  <script src="../assets/js/terminal-background.js"></script>
+</body>
+
+</html>
